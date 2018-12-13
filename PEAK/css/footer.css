@@ -1,0 +1,58 @@
+/*footer*/
+/*reference*/
+#footer{
+	width: 100%;
+	height: 335px;
+	text-align: center;
+}
+#reference{
+	width: 100%;
+	height: 170px;
+	border-bottom: 1px solid #eeeeee;
+	padding-top: 40px;
+}
+#reference div{
+	float: left;
+}
+#reference div:nth-child(1){
+	margin-left: 110px;
+}
+#reference_left ul{
+	float: left;
+	margin-right: 45px;
+	text-align: left;
+}
+#reference_left ul li{
+	font-size: 12px;
+	color:#666666;
+	line-height: 20px;
+}
+#reference_left ul li:nth-child(1){
+	font-size: 14px;
+	color: black;
+	font-weight: 600;
+	line-height: 27px;
+}
+#reference_right .re_1 p{
+	font-size: 12px;
+}
+.re_2{
+	text-align:left;
+	margin-left: 35px;
+}
+.re_2 p:nth-child(1){
+	line-height: 10px;
+}
+.re_2 p:nth-child(2),.re_2 p:nth-child(3){
+	font-size: 18px;
+	font-weight: 600;
+}
+/*footer_bt*/
+#footer_bt{
+	height: 140px;
+	padding-top: 25px;
+}
+#footer_bt a{
+	color: #666666;
+	font-size: 12px;
+}

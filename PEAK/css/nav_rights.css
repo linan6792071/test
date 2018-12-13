@@ -1,0 +1,41 @@
+ /* ##nav_rightss 右方雪碧图导航*/
+   #nav_rights{
+   	width: 36px;
+   	height: 580px;
+   	background: black;
+   	position: fixed;
+   	right: 0;
+   	top: 0;
+   	padding-top: 150px;
+   	z-index: 1;
+   }
+   
+    #nav_rights div{
+    	width: 36px;
+    	height: 30px;
+    	background-image: url('../img/xuebi1.png');
+    	margin-bottom: 10px;
+    }
+    #nav_rights div:nth-child(1){
+    	background-position: 4px 2px;
+    	border-bottom: 1px solid #4c4c4c;
+    }
+    #nav_rights div:nth-child(2){
+    	background-position: 4px -63px;
+    	border-bottom: 1px solid #4c4c4c;
+    }
+    #nav_rights div:nth-child(3){
+    	background-position: 4px -122px;
+    }
+    #nav_rights div:nth-child(4){
+    	background-position: 4px -150px;
+    }
+    #nav_rights div:nth-child(5){
+    	background-position: 4px -180px;
+    }
+    #nav_rights div:nth-child(6){
+    	background-position: 4px -30px;
+    }
+    #nav_rights div:nth-child(7){
+    	background-position: 4px -240px;
+    }

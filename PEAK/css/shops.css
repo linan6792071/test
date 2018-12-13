@@ -1,0 +1,210 @@
+   body,div,ul,ol,li,html,p,h1,h2,h3,h4,h5,h6,form,table,td,tr {
+   	margin: 0;
+   	padding: 0;
+   }  
+   a {
+   	text-decoration: none;
+   	color: white;
+   }  
+   body {
+   	text-align: center;
+   	position: relative;
+   }  
+   ol,ul {
+   	list-style: none;
+   }
+   /*nav_ccenter*/
+   
+   #nav_center {
+   	width: 100%;
+   	height: 106px;
+   	overflow: hidden;
+   	margin: 0 auto;
+   	box-shadow: 0px 4px 5px -5px #999999;
+   }
+   
+   #nav_center ul {
+   	float: left;
+   }
+   
+   #nav_center ul:nth-child(2) {
+   	margin-top: 40px;
+   	margin-left: 40px;
+   }
+   
+   #nav_center ul:nth-child(2) li {
+   	float: left;
+   	padding: 0px 1px 0px 1px;
+   	height: 33px;
+   	line-height: 41px;
+   	color: #777777;
+   	margin-right: 20px;
+   }
+   
+   #nav_center ul:nth-child(1) {
+   	margin: 20px 0 0 60px;
+   }
+   
+   #nav_center ul:nth-child(1) img {
+   	width: 77px;
+   	height: 64px;
+   }
+   
+   #nav_center ul:nth-child(3) {
+   	margin-top: 40px;
+   	margin-left: 40px;
+   }
+   
+   #nav_center ul:nth-child(3) li {
+   	float: left;
+   }
+   
+   #nav_center ul:nth-child(3) li:nth-child(1) input {
+   	height: 30px;
+   	width: 233px;
+   	margin-left: 5px;
+   	font-size: 12px;
+   	color: #777777;
+   }
+   
+   #nav_center ul:nth-child(3) li:nth-child(2) {
+   	width: 19px;
+   	background: #e80000;
+   	height: 34px;
+   	line-height: 42px;
+   	/*margin-top: 0px;*/
+   	text-decoration: none;
+   	padding-left: 6px;
+   	padding-right: 9px;
+   	font-size: 16px;
+   	cursor: pointer;
+   }
+   
+   /*shop_content*/
+   #shop_content{
+   	widows:100%;
+   	height: auto;
+   	background: white;
+   	padding-top: 20px;
+   	border-top: 2px solid darkgray;
+   }
+   #shop_content_tp{
+   	width: 1200px;
+   	height: 44px;
+   	background: #F5F5F5;
+   	margin: 0 auto;
+   }
+   #shop_content_tp ul{
+   	width: 1200px;
+   	height: 44px;
+   	padding-left:40px ;
+   }
+   #shop_content_tp ul li{
+   	line-height: 44px;
+   	float: left;
+   	font-size: 12px;
+   }
+   #shop_content_tp ul li a{
+    color: #666;
+   }
+   #shop_content_ct{
+   	width: 1200px;
+   	margin: 0 auto;
+   	border:1px solid grey;
+   	margin-top: 20px;
+   }
+   
+   #shop_content_ct ul{
+   	overflow: hidden;
+   	margin-bottom: 20px;
+   }
+   #shop_content_ct ul li{
+   	float: left;
+   	font-size: 12px;
+   	line-height: 30px;
+   	margin-top: 15px;
+   	margin-left: 30px;
+   }
+   #shop_content_ct ul input{
+   	width: 30px;
+   }
+   #shop_content_ct ul li:first-child{
+   	width: 50px;
+   	border-right: 1px solid grey;
+   }
+   #shop_content_ct ul li a{
+   	color: blue;
+   }
+   #shop_content_ct ul li a:hover{
+   	color: red;
+   	text-decoration: underline;
+   }
+   #shop_content_cbs{
+   	width: 1200px;
+   	margin: 0 auto;
+   	background: #F5F5F5;
+   	margin-top: 20px;
+   }
+   #shop_content_cbs ul{
+   	width: 1200px;
+   	height: 44px;
+   	padding-left:40px ;
+   	line-height: 44px;
+   }
+   #shop_content_cbs ul li{
+   	float: left;
+   	margin-right: 20px;
+   
+   }
+   #shop_content_cbs ul div{
+   	width: 12px;
+   	height: 12px;
+   	background: url(../img/signICON.png);
+   	float: right;
+    margin-top:15px ;
+   }
+   /*shop_dis*/
+   #shops_dis{
+   	width: 1200px;
+   	margin: 0 auto;
+   	margin-top: 20px;
+   }
+   #shops_dis div{
+   	width: 300px;
+   	height: 408px;
+   	float: left;
+   }
+   #shops_dis img{
+   	width: 294px;
+   	height: 294px;
+   }
+   
+   /*service*/  
+   #service {
+   	width: 100%;
+   	height: 102px;
+   	background: #eeeeee;
+   	border-top: 1px solid #dce1e5;
+   	line-height: 102px;
+   }
+   
+   #service a {
+   	/*float:left;*/
+   	font-size: 20px;
+   	color: #878787;
+   	text-align: center;
+   	display: inline-block;
+   	vertical-align: middle;
+   	width: 250px;
+   	height: 52px;
+   	border-right: 1px solid #a3a3a3;
+   	line-height: 52px;
+   }
+   
+   #service a:last-child {
+   	border-right: none;
+   }
+   
+   #service a img {
+   	margin-top: 10px;
+   }

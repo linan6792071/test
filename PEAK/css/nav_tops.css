@@ -1,0 +1,28 @@
+   /* ##nav_tops 上方导航*/
+   #nav_tops {
+   /*	width: 100%;*/
+   	height: 30px;
+   	background-color: #f5f5f5;
+   }
+   #nav_tops span{
+   	font-size: 12px;
+   	color: #999999;
+   	line-height: 30px;
+   	float: left;
+   	margin-right: 25px;
+   }
+   #nav_tops a{
+   	font-size: 12px;
+   	color: #999999;
+   	line-height: 30px;
+   	margin-right: 25px;
+   }
+   #nav_tops div{
+   	float: left;
+   }   
+   #nav_tops #nav_tops_left{
+   	margin-left: 170px;
+   }
+   #nav_tops #nav_tops_right{
+   	margin-left: 450px;
+   }

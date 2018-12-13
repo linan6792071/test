@@ -1,0 +1,283 @@
+   body,div,ul,ol,li,html,p,h1,h2,h3,h4,h5,h6,form,table,td,tr{
+   	margin: 0;
+   	padding: 0;
+   }
+   
+   a {
+   	text-decoration: none;
+   	   	color: white;
+   }
+   body{
+   	text-align: center;
+   	position: relative;
+   }
+   ol,ul {
+   	list-style: none;
+   }
+
+
+    /*nav_center*/
+   #nav_center{
+   	width: 100%;
+   	height: 90px;
+   }
+   #nav_center #logo{
+   	float: left;
+   	margin-left: 80px;
+   	margin-top: 25px;
+   	margin-right: 110px;
+   }
+   #nav_center input{
+   	width: 450px;
+   	height: 36px;
+   	font-size: 16px;
+   	float: left;
+   	margin-top: 24px;
+   	
+   }
+   #nav_center #search{
+   	width: 85px;
+   	height: 40px;
+   	color: white;
+   	background: #e80000;
+   	font-size: 16px;
+   	float: left;
+   	margin-top: 24px;
+   	text-align: center;
+   	line-height: 40px;
+   }
+   #nav_center #finces{
+   	height: 90px;
+   	float: left;
+   	margin-left: 50px;
+   	overflow: hidden;
+   }
+   /*nav_bottom*/
+  #nav_bottom{
+  	width: 100%;
+  	height: 42px;
+  	background-color: black;
+  }
+ #nav_bottom ul li{
+ 	font-size: 16px;
+ 	color: white;
+ 	float: left;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	line-height: 42px;
+ }
+ #nav_bottom ul li:first-child{
+ 	margin-left: 160px;
+ 	background-color:#e80000 ;
+ }
+ #nav_bottom ul li:hover{
+ 	background:gainsboro;
+ }
+/*slider轮播图*/
+#slider{
+	position: relative;
+	widows: 1400px;
+	height: 480px;
+	background: yellow;
+}
+/*leaves*/
+#leaves{
+	margin-top: 30px;
+}
+#leaves img{
+	margin-right: 10px;	
+}
+#leaves img:last-child{
+	margin-right: 0;
+}
+#leaves img:hover{
+	transform: translateY(-10px);
+	transition: all 1s;
+}
+/*layer*/
+#layernum01{
+	display: block;
+	margin-top: 33px;
+}
+#layernum01 #layn1{
+   width: 1200px;
+	height: 42px;
+	background: black;
+	margin: 0 auto;
+}
+#layernum01 li{
+	color:white;
+	line-height: 42px;
+}
+#layn1>li:first-child{
+	float: left;
+}
+.layn1_left{
+	margin-left: 20px;
+}
+.layn1_left span,.layn1_left a{
+	font-size: 18px;	
+}
+.layn1_right{
+	float: right;
+	margin-right: 35px;
+}
+#layn2 li{
+	float: left;
+	font-size: 14px;
+}
+#layn2 li:nth-child(1),#layn2 li:nth-child(2),#layn2 li:nth-child(3),#layn2 li:nth-child(4){
+	width: 90px;
+	height: 40px;	
+	margin-right: 20px;
+}
+#layn2 li:nth-child(1):hover,#layn2 li:nth-child(2):hover,#layn2 li:nth-child(3):hover,#layn2 li:nth-child(4):hover{
+	background:#e80000;
+}
+#layn2 li:nth-child(5){
+	margin-left: 35px;
+}
+/*storesTable*/
+#storesTable{
+	width:1200px;
+	height: 476px;
+	border: 1px solid #f5f5f5;
+	margin: 20px auto 0 auto;
+}
+#stores_left{
+	width: 242px;
+	height: 476px;
+	float: left;
+}
+#storesTable div{
+	float: left;
+}
+#stores_left div:nth-child(1){
+	width:242px ;
+}
+#stores_left div:nth-child(1) a{
+	width:120px;
+	height: 50px;
+	float: left;
+	border-bottom: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+}
+#stores_left div:nth-child(2){
+	width: 242px;
+	height: 112px;
+	padding-top: 30px;
+}
+#stores_left div:nth-child(2) a{
+	width:120px;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 600;
+	float: left;
+	color: #666666;
+}
+#stores_right{
+	width: 720px;
+}
+#stores_right ul{
+	width: 720px;
+	overflow: hidden;
+}
+#stores_right ul li{
+	padding-top: 5px;
+	width: 239px;
+	height: 233px;
+	border-bottom: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	float: left;
+}
+#stores_right ul li p{
+	font-size: 12px;
+	line-height: 10px;
+	margin-top: 10px;
+	font-weight: 600;
+}
+#stores_right  li img:hover{
+	transform: translateX(-10px);
+	transition: all 1s; 
+}
+/*recommend*/
+#recommend{
+	width: 1198px;
+	height: 270px;
+	border: 1px solid #f5f5f5;
+	margin: 40px auto 0 auto;
+}
+#recommend div{
+	height: 270px;
+	float: left;
+	border-right: 1px solid #f5f5f5;;
+}
+#recommend div:nth-child(1){
+	width:240px ;
+}
+#recommend div:nth-child(2){
+	width: 235px;
+}
+#recommend div:nth-child(3){
+	width: 239px;
+}
+#recommend div:nth-child(4){
+	width: 239px;
+}
+#recommend div:nth-child(5){
+	width: 241px;
+	border-right: none;
+}
+/*service*/
+#service{
+	width: 100%;
+	height: 102px;
+	background:#eeeeee ;
+	border-top: 1px solid #dce1e5;
+	line-height: 102px;
+}
+#service a{
+	/*float:left;*/
+	font-size: 20px;
+	color: #878787;
+	text-align: center;
+	display:inline-block;
+	vertical-align: middle;
+	width: 250px;
+	height: 52px;
+	border-right: 1px solid #a3a3a3;
+	line-height: 52px;
+}
+#service a:last-child{
+	border-right: none;
+}
+#service a img{
+	margin-top: 10px;
+}
+/*#service .abox{
+	margin: 0 auto;
+	background: pink;
+	overflow: hidden;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

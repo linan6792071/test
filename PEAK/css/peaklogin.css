@@ -1,0 +1,131 @@
+   body,div,ul,li,html,form,h1,h2,h3,h4,h5,h6,p{
+   	margin: 0;
+   	padding: 0;
+   }
+   
+   a {
+   	text-decoration: none;
+   	   	color: white;
+   }
+   body{
+   text-align: center;
+   }
+   ol,ul {
+   	list-style: none;
+   }
+   /*section*/
+   #section{
+   	width: 100%;
+   	height: 617px;
+   	border-bottom: 1px solid #dce1e5;
+   	position: relative;
+   }
+   #section ul{
+   	float: left;
+   }
+   #section .sec_1{
+   	position: absolute;
+   	left: 455px;
+   	top: 90px;
+   }
+   #section .sec_2{
+   	position: absolute;
+   	left: 700px;
+   	top: 25px;
+   }
+   #section .sec_3{
+   	width: 265px;
+   	position: absolute;
+   	left: 810px;
+   	top:90px
+   }
+   #section .sec_1 li:nth-child(2) img{
+   	width: 152px;
+   	height: 152px;
+   }
+   #section .sec_3 li:nth-child(1){
+   	font-size: 14px;
+   	color: #e8001f;
+   	font-weight: 600;
+   }
+   #section .sec_3 input{
+   	width: 260px;
+   	height: 30px;
+   	color: #999999;
+   	font-size: 12px;
+   	margin-top: 25px;
+   }
+   #section .sec_3 .sec_3_01 li{
+   	float: left;
+   	width: 124px;
+   	height: 35px;
+   	font-size: 14px;
+   	margin-top: 23px;
+   	margin-right: 8px;
+   }
+   #section .sec_3 .sec_3_01 li a{
+   	display: block;
+   	color: #ffffff;
+   	width: 124px;
+   	height: 35px;
+   	text-align: center;
+   	vertical-align: middle;
+   }
+   #section .sec_3 .sec_3_01 li:nth-child(1){
+   	background: #e80000;
+   }
+   #section .sec_3 .sec_3_01 li:nth-child(2){
+   	background: #a9a9a9;
+   }
+   #section .sec_3 .sec_3_02 li{
+   	float: left;
+   	margin-left: 45px;
+   	margin-top: 30px;
+   }
+   #section .sec_3 .sec_3_03{
+   	text-align: center;
+   	width: 265px;
+   	height: 68px;
+   	border-top: 1px dashed #dddddd;
+   }
+   #section .sec_3 .sec_3_03 li:nth-child(1){
+   	color:#959595;
+   	margin-top: 10px;
+   } 
+   .sec_3_03 li:nth-child(2),.sec_3_03 li:nth-child(3),.sec_3_03 li:nth-child(4),.sec_3_03 li:nth-child(5){
+   	float: left;
+   	width: 25px;
+   	height: 25px;
+   	background-image: url(../img/xuebi2.png);
+   	margin-top: 20px;
+   }
+   .sec_3_03 li:nth-child(2){
+   	background-position:0px -2px ;
+   	margin-right:50px;
+   }
+   .sec_3_03 li:nth-child(3){
+   	background-position: -1px -27px;
+   	margin-right:50px;
+   }
+   .sec_3_03 li:nth-child(4){
+   	background-position: 0px -52px;
+   	margin-right:50px;
+   }
+   .sec_3_03 li:nth-child(5){
+   	background-position: -1px -77px;
+   }
+  
+   /*#l_and_r{
+   	position: absolute;
+   	left: 810px;
+   	top:90px
+   }*/
+
+
+
+
+
+
+
+
+
